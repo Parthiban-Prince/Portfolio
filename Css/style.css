@@ -1045,4 +1045,147 @@ textarea{
     /*Foots End*/
 
   }
-  
+  /*BIg Screen*/
+  @media  screen and (min-width: 1200px) and (max-width: 1800px) {
+    /* Adjustments for laptops and desktops */
+    header{
+        max-width: 100%;
+    }
+
+    ul{
+        width: 100%;
+    }
+
+    #title{
+        font-size: 40px;
+    }
+
+    ul li a {
+        font-size: 16px;
+    }
+    .Header-Container{
+        display: flex;
+    }
+
+
+
+    /*Header End*/
+
+    /*Home */
+
+    .Home{
+        display:flex;
+        flex-direction: column-reverse;
+        border: 1px solid black;
+        width:100%;
+        height: 100%;
+        gap: 1.5rem;
+        padding: 130px 0px;
+    }.Home-Image-Container{
+        width: 400px;
+        height: 400px;
+        border: 10px solid black;
+            border-radius: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 7px solid green;
+            border-right: 7px solid green;
+            animation: loader 1s linear infinite, opacity 2s ease-in-out infinite;
+            background-color: black;
+        }
+        
+        .Design {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        border: 8px solid white;
+        border-top: 8px solid green;
+        border-bottom: 8px solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Profile-Card{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Home-content{
+        gap: 0rem;
+    }
+
+    /*home end */
+
+    /*About*/
+
+    .About{
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .About-container{
+        padding: 5px 5px;
+    }
+
+    /*About End*/
+
+    /*Education */
+    .Education-Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px 10px;
+    }
+    .Experience{
+        display: none;
+    }
+    .Education-Title{
+        margin: 10px;
+    }
+
+    /*Education End*/
+
+    /*Showcase*/
+    .Showcase-Container{
+        margin: 10px 10px;
+    }
+    .Showcase-Container-Content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*Showcase End*/
+
+    /*Skills */
+    .Skills-Container-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 8rem;
+    }
+    /*Skills End*/
+
+    /*Contact*/
+    .Contact-Container{
+        display: block;
+    }
+    textarea{
+        width: 351px;
+    }
+    #Random-Text{
+        text-align: center;
+    }
+    .Form-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Contact End*/
+
+    /*Foots*/
+    .Foots{
+        font-size: 30px;
+    }
+    /*Foots End*/
+
+  }
