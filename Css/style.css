@@ -18,7 +18,6 @@
     padding: 0;
   }
   
-  
   body {
     background-color:var(--maincolor);
     font-family: var(--fontfam);
@@ -115,9 +114,7 @@ li a{
 
 /*Home Section Styles*/
 
-.Small-Device{
-    display: none;
-}
+
 
 .Home{
     display: flex;
@@ -253,41 +250,6 @@ p{
 
 
 /*About Content End*/
-
-/*Education Style
-.Education-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 200px;
-    height: 770px;
-    max-height:780px;
-}
-
-
-.Education-Title{
-    font-size: 40px;
-    text-align: center;
-}
-
-.Education-Content{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 0px 50px;
-}
-
-.Education-Content-Style{
-    background-color: var(--footercolor);
-    color: #F9F6ED;
-    border: 1px solid black;
-    width:500px;
-    max-width: 600px;
-    height: 100px;
-    padding: 5px 20px;
-
-}
-    */
 
 .Experience{
     visibility: hidden;
@@ -635,7 +597,7 @@ textarea{
 
     /*Foots*/
     .Foots{
-        font-size: 30px;
+        font-size: 25px;
     }
     /*Foots End*/
 }
